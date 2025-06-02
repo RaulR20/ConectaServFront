@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "ConectaServWeb",
+    "slug": "conectaserv-web",
+    "platforms": ["web"],
+    "version": "1.0.0",
+    "sdkVersion": "50.0.0",
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
+
