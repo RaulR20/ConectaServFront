@@ -27,7 +27,6 @@ export default function LoginScreen({ navigation }: any) {
       const response = await api.post('/Auth/login', data);
       const token = response.data.token;
 
-      // 🔐 Ajuste aqui conforme a estrutura da resposta do seu backend:
       const usuarioId = response.data.id || response.data.usuario?.id;
       if (!usuarioId) {
         throw new Error('ID do usuário não encontrado no response');

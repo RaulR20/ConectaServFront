@@ -6,7 +6,7 @@ import LoginScreen from '../screens/LoginScreen';
 import RegisterScreen from '../screens/RegisterScreen';
 import HomeScreen from '../screens/HomeScreen';
 import CadastroPrestadorLocalScreen from '../screens/CadastroPrestadorLocalScreen';
-import PrestadorDetalhesScreen from '../screens/PrestadorDetalhesScreen'; // ✅ nova importação
+import PrestadorDetalhesScreen from '../screens/PrestadorDetalhesScreen';
 import EscolherPlanoScreen from '../screens/EscolherPlanoScreen';
 
 export type RootStackParamList = {
@@ -14,7 +14,7 @@ export type RootStackParamList = {
   Register: undefined;
   Home: undefined;
   CadastroPrestadorLocalScreen: undefined;
-  PrestadorDetalhesScreen: any; // ✅ temporariamente sem tipagem rígida
+  PrestadorDetalhesScreen: any; // temporariamente sem tipagem rígida
   EscolherPlanoScreen: undefined;
 };
 

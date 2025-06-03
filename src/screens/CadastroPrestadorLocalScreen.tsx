@@ -57,6 +57,7 @@ export default function CadastroPrestadorLocalScreen() {
       await AsyncStorage.setItem('prestadoresLocais', JSON.stringify(lista));
       Alert.alert('Sucesso', 'Prestador cadastrado localmente!');
       navigation.navigate('EscolherPlanoScreen');
+
     } catch (error) {
       console.error(error);
       Alert.alert('Erro', 'Não foi possível salvar os dados.');

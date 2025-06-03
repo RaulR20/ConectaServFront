@@ -148,7 +148,7 @@ export default function HomeScreen() {
               style={styles.botaoExcluir}
               onPress={() => excluirPrestador(index)}
             >
-              <Text style={styles.textoBotaoExcluir}>🗑️ Excluir</Text>
+              <Text style={styles.textoBotaoExcluir}>Excluir</Text>
             </TouchableOpacity>
           </View>
         ))}
